@@ -1,1 +1,10 @@
-just typing this in to test
+<h1>Project Part II</h1>
+<h2>Group 9: Angel Labrada-Galvan, Angela Gomez, Aubree Goff, Cynthia Mengqi Zhang, Garen Bainbridge, Hurley Haney, Layla Penland</h2>
+
+1. Attempting this work
+
+*IF Model Explanation*
+
+* An Integrate and fire model is a computational model that mimics behavior of biological neurons by continuously summing and "integrating" incoming electrical signals until a threshold is reached. Once the threshold is reached, the model can "fire" an action potential.
+
+    * Read more about leaky fire models here: https://neuronaldynamics.epfl.ch/online/Ch1.S3.html
