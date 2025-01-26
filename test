@@ -8,3 +8,7 @@
 * An Integrate and fire model is a computational model that mimics behavior of biological neurons by continuously summing and "integrating" incoming electrical signals until a threshold is reached. Once the threshold is reached, the model can "fire" an action potential.
 
     * Read more about leaky fire models here: https://neuronaldynamics.epfl.ch/online/Ch1.S3.html
+
+An LIF model, Leaky Integrate-and-Fire model, is essentially an Integrate-and-Fire model that takes into account the presence of leaky ion channels in a neuron. From the model visualization above, this model is missing the fluctuations in membrane potential present in real biological neurons as a result of leaky ion channels. In a real biological neuron, the curves would not be as smooth. 
+
+Additionally, the membrane potentials reach the threshold with a single stimulation, rather than having to engage in temporal or spatial summation. Real biological neurons often have to utilize these two types of summation to ensure the membrane potential crosses the threshold for an action potential. The model also seems to be missing the refractory periods that biological neurons experience. However, the model does provide an accurate account for the depolarization, repolarization, and hyperpolarization.  
